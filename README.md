@@ -1,4 +1,4 @@
-## BaiduPCS-Web
+# BaiduPCS-Web
 
 这个项目基于BaiduPCS-Go, 可以让你高效的使用百度云
 
@@ -8,7 +8,24 @@
 
 腾讯视频: https://v.qq.com/x/page/e0774xoeatv.html
 
-### 运行
+## 安装
+```bush
+// install dependencies
+npm install
+```
+## 运行
+### 开发环境
+```bush
+// For the first time, run init to create index.html
+npm run init
+npm run dev
+```
+### 生产环境(Build)
+```bush
+npm run build
+```
+
+### 运行BaiduPCS-Go
 程序已经打包好放在 [release](https://github.com/liuzhuoling2011/baidupcs-web/releases) 页面, Windows版本直接双击就可以使用
 
 对于 Linux 和 Mac 版本:
@@ -27,10 +44,6 @@
 
 ### 对于老版登陆后没有内容, 只显示 "No permission to do this operation"
 登陆后在右上角的设置里面把appid设置为```266719```就可以正常使用了
-![avatar](http://oozw0y5q9.bkt.clouddn.com/20180918142033.png)
 
-Enjoy, 如果觉得好用, 请不要吝啬 ```star``` 或者 ```follow``` 哦, 或者顺便 ```buy me a coffee```
 
-|支付宝|微信|
-|:-----:|:-----:|
-|<img width="152" src="https://i.loli.net/2018/09/11/5b9762ccc140f.png">|<img width="150" src="https://i.loli.net/2018/09/11/5b9762ad8fcb3.png"/>|
+
